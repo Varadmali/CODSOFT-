@@ -1,0 +1,76 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(back.jpg);
+    background-size: cover;
+    font-family: 'poppins',sans-serif;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.register a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    background: red;
+} 
+.h-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 650px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+.h-text span{
+    letter-spacing: 5px;
+}
+.h-text h1{
+    font-size: 3.5rem;
+}
+.h-text a{
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    letter-spacing: 5px;
+    border-radius: 8px;
+}
+.register a:hover{
+    border: 1px solid red;
+    background: transparent;
+}
+.h-text a:hover{
+    border: 1px solid red;
+    background: transparent;
+}
+.menu a:hover{
+    border: 1px solid red;
+    background: transparent;
+}
